@@ -1,0 +1,14 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/ex01.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bertimaiara",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
