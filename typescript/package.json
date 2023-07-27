@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only ./src/ex01.ts",
+    "dev2": "ts-node-dev --respawn --transpile-only ./src/ex02.ts",
+    "dev3": "ts-node-dev --respawn --transpile-only ./src/ex03.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
